@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test4</title>
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    
+    <form id="email-adress">
+        <input
+            type="email"
+            class="email-adress"
+            placeholder="examlpe@gmail.com"
+            pattern="[A-Za-z]{1,} \D ^[ 0-9]+$ @ [A-Za-z]{1,} . [A-Za-z]{1,}"
+            maxlength="60"
+            required 
+        >
+
+        <div class="messages">
+            <span data-rule="valueMissing" class="hide">
+              Введите адресс электронный
+            </span>
+        </div>
+
+
+    </form>
+
+</body>
+</html>
